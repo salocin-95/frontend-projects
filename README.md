@@ -6,6 +6,8 @@ Frontend Projects from [roadmap.sh](https://roadmap.sh/)
 
 [Project List](https://salocin-95.github.io/frontend-projects/)
 
+[Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+
 ### Beginner
 
 [Single-Page CV](http://salocin-95.github.io/frontend-projects/beginner-projects/01-single-page-cv/index.html)
