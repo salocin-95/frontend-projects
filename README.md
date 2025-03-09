@@ -4,11 +4,11 @@ Frontend Projects from [roadmap.sh](https://roadmap.sh/)
 
 ## Projects List
 
-[https://salocin-95.github.io/frontend-projects/](Projects list)
+[Project List](https://salocin-95.github.io/frontend-projects/)
 
 ### Beginner
 
-[http://salocin-95.github.io/frontend-projects/beginner-projects/01-single-page-cv/index.html](Single-Page CV)
+[Single-Page CV](http://salocin-95.github.io/frontend-projects/beginner-projects/01-single-page-cv/index.html)
 
 <!--
   <a href='/Frontend Projects/02-basic-html-website/'>
