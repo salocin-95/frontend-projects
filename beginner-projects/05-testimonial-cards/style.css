@@ -9,9 +9,16 @@
 main {
     display: flex;
     justify-content: center;
+    justify-self: center;
     height: 100vh;
     gap: 2rem;
     margin: 1rem;
+    width: 50%;
+}
+
+.section-container {
+    display: flex;
+    gap: 1rem;
 }
 
 .border-card-container, .card-container {
@@ -20,6 +27,7 @@ main {
 
 
 .black-quote {
+    position: relative;
     background-color: black;
     color: white;
     height: 30%;
@@ -27,7 +35,26 @@ main {
     border-radius: 10px;
 }
 
+.black-quote::after {
+    content: "";
+    position: absolute;
+    bottom: -20px; /* Adjust this for positioning */
+    left: 2.5rem;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
 .person-container {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.person-container-border {
     display: flex;
     align-items: center;
     padding-top: 1rem;
@@ -42,7 +69,7 @@ main {
 }
 
 .border-card-container {
-    padding: 1rem;
-    border: 1px solid black;
+    padding: 1.5rem;
+    border: 2px solid black;
     border-radius: 10px;
 }
